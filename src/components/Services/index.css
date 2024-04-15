@@ -1,3 +1,7 @@
+.services-list.container {
+    padding: 0;
+}
+
 .services-list .row {
     display: flex;
     flex-direction: row;
