@@ -8,8 +8,12 @@ const Testimonials = () => {
 
     const responsive = {
         all: {
-          breakpoint: { max: 4000, min: 0 },
+          breakpoint: { max: 4000, min: 769 },
           items: 3
+        },
+        mobile: {
+            breakpoint: { max: 768, min: 0 },
+            items: 2
         }
     }
 
@@ -30,7 +34,7 @@ const Testimonials = () => {
                 autoPlaySpeed={2000}
                 transitionDuration={500}
                 itemClass="carousel-item-testimonials"
-                removeArrowOnDeviceType={["all"]}
+                removeArrowOnDeviceType={["all", "mobile"]}
             >
                 
                 <div>
