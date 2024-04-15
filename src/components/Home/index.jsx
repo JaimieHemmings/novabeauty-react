@@ -8,7 +8,11 @@ const Home = () => {
     return (
         <main>
             <Swiper />
-            <Hero />
+            <Hero
+                title={"The WOW Effect"}
+                p1={"I offer premium traditional therapies and services including luxury manicure treatments, waxing, hairdressing and much more!"}
+                p2={"Drawing on nearly a decade of experience I intend you make you feel comfortable in your own skin."}            
+            />
             <Panels />
             <Testimonials />
         </main>

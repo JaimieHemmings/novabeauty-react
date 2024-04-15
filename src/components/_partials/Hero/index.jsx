@@ -1,14 +1,13 @@
 import "./index.css"
 
-const Hero = () => {
+const Hero = ({title, p1, p2}) => {
     return (
         <>
             <section className="hero">
                 <div className="container">
-                    <h2>The WOW Effect</h2>
-                    <p>I offer premium traditional therapies and services including luxury manicure treatments, waxing, hairdressing and much more!</p>
-                    <p>Drawing on nearly a decade of experience I intend you make you feel comfortable in your own skin.</p>
-                    <p><a href="#">Learn More</a></p>
+                    <h2>{title}</h2>
+                    <p>{p1}</p>
+                    <p>{p2}</p>
                 </div>
             </section>
         </>
