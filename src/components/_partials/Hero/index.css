@@ -1,0 +1,46 @@
+.hero {
+    padding: 25px 0;
+    background-image: url('Assets/images/lashes.webp');
+    background-size: cover;
+    background-repeat: none;
+    background-position: 50% 50%;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero .container {
+    background: rgba(49, 53, 61, 0.95);
+    padding: 60px 15px;
+  }
+  
+  .hero h2 {
+    color: rgb(252, 188, 178);
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 1.5;
+  }
+  
+  .hero p{
+    line-height: 1.4;
+  }
+  
+  .hero a {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 568px) {
+    .hero {
+      padding: 15px 15px;
+      background-image: none;
+      padding: 0 0 0 0;
+    }
+  
+    .hero .container {
+      padding: 70px 15px;
+      max-width: 100%;
+    }
+  }

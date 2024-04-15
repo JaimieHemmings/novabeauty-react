@@ -1,0 +1,41 @@
+:root {
+    --primary-color: rgb(252, 188, 178);
+    --primary-bg-color: rgb(49, 53, 61);
+    --primary-header-size: 72px;
+    --secondary-header-size: 32px;
+    --primary-font-size: 16px;
+    --primary-font-family: "Barlow Condensed", sans-serif;
+    --secondary-font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background: #ededed;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--primary-font-family);
+    font-size: var(--secondary-header-size);
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-bottom: 25px;
+  }
+  
+  p {
+    font-family: var(--secondary-font-family);
+    font-size: var(--primary-font-size);
+    padding-bottom: 15px;
+    line-height: 1.4;
+  }
+
+  .container {
+    max-width: 1078px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  @media screen and (max-width: 1078px) {
+    .container {
+      max-width: 768px;
+    }
+  }
