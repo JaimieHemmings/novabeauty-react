@@ -10,7 +10,7 @@ function getDate() {
 
 const Footer = () => {
 
-    const [currentDate, setCurrentDate] = useState(getDate());
+    const [currentDate] = useState(getDate());
 
     return (
         <footer>

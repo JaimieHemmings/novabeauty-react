@@ -1,4 +1,5 @@
 import Carousel from "react-multi-carousel"
+import { Link } from 'react-router-dom'
 import "react-multi-carousel/lib/styles.css"
 import "./index.css"
 import BannerIMG1 from "../../../assets/images/Models.webp"
@@ -30,7 +31,7 @@ const Swiper = () => {
             <p>Beautiful</p>
             <p>Glamorous</p>
             <p>Confident</p>
-            <p><a href="#">Learn More</a></p>
+            <p><Link to="/services">LEARN MORE</Link></p>
           </div>
         </div>
         
