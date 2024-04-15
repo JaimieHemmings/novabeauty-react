@@ -5,7 +5,7 @@
 
 .testimonials h2 {
     color: var(--primary-bg-color);
-    padding: 0;
+    padding-bottom: 15px;
 }
 
 .testimonials h3 {
