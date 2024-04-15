@@ -18,9 +18,10 @@ const Swiper = () => {
         responsive={responsive}
         infinite={true}
         autoPlay={true}
-        autoPlaySpeed={50000}
+        autoPlaySpeed={5000}
         transitionDuration={500}
         itemClass="carousel-item"
+        removeArrowOnDeviceType={["all"]}
       >
         <div style={{
           backgroundImage: `url(${BannerIMG1})`,

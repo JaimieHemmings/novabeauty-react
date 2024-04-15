@@ -2,6 +2,12 @@
   padding-bottom: 25px;
 }
 
+@media screen and (max-width: 768px) {
+  .react-multi-carousel-list {
+    padding-bottom: 0px;
+  }
+}
+
 .carousel-item div {
     height: 450px;
     background-position: center;

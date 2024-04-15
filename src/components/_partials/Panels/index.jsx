@@ -40,7 +40,7 @@ const Panels = () => {
                     </Link>
                     <Link to="/">
                         <img src={Hair} alt="" width="400" height="400" />
-                        <h2>hair</h2>
+                        <h2>Hair</h2>
                     </Link>
                     <Link to="/">
                         <img src={Brows} alt="" width="400" height="400" />

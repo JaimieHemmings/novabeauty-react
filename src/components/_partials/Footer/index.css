@@ -1,0 +1,51 @@
+footer {
+    margin-top: 25px !important;
+    background-color: var(--primary-bg-color);
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer li {
+    margin-top: 5px;
+}
+
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: var(--primary-font-family);
+    transition: 0.3s ease-out;
+}
+
+footer li:hover a {
+    color: #fff;
+}
+
+footer .container .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer .container .row .col {
+    flex-basis: 33%;
+}
+
+footer .container .row .col.full-width-col {
+    flex-basis: 100%;
+}
+
+.copyNotice {
+    color: #fff;
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+}

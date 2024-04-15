@@ -6,7 +6,8 @@ const Hero = () => {
             <section className="hero">
                 <div className="container">
                     <h2>The WOW Effect</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis distinctio officia nostrum assumenda animi. Commodi nisi id, dolorem minus corporis fugiat vero eveniet asperiores eum temporibus nostrum, repellat, quo ratione.</p>
+                    <p>I offer premium traditional therapies and services including luxury manicure treatments, waxing, hairdressing and much more!</p>
+                    <p>Drawing on nearly a decade of experience I intend you make you feel comfortable in your own skin.</p>
                     <p><a href="#">Learn More</a></p>
                 </div>
             </section>

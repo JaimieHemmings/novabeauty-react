@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom'
-import Navigation from '../Navigation'
+import Navigation from '../_partials/Navigation'
+import Footer from '../_partials/Footer'
 import './index.css'
 
 const Layout = () => {
@@ -7,6 +8,7 @@ const Layout = () => {
         <div className="App">
             <Navigation />
             <Outlet />
+            <Footer />
         </div>
     )
 }
