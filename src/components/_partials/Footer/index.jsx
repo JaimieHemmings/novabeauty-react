@@ -30,7 +30,13 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col">
-
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">Massage</Link></li>
+                            <li><Link to="/services">Services</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
+                        </ul>
                     </div>
                     <div className="col">
                         <h2>Contact</h2>
