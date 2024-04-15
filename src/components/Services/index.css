@@ -1,0 +1,66 @@
+.services-list .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.services-list .col {
+    flex-basis: 50%;
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@media screen and (max-width:568px) {
+    .services-list .col {
+        flex-basis: 100%;
+    }
+}
+
+.services-list .col:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,0.85);
+    z-index: 1;
+}
+
+.services-list .col h3 {
+    position: relative;
+    z-index: 2;
+    padding: 15px;
+    color: var(--primary-bg-color);
+    text-align: center;
+}
+
+.services-list .col p {
+    position: relative;
+    z-index: 2;
+    padding: 15px;
+    color: var(--primary-bg-color);
+    text-align: center;
+}
+
+.services-list .col ul {
+    padding: 15px;
+    font-family: var(--secondary-font-family);
+    color: var(--primary-bg-color);
+    position: relative;
+    z-index: 2;
+}
+
+.services-list .col ul li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid rgba(200,200,200,0.65);
+}
+
+.services-list .col ul span {
+    color: var(--primary-bg-color);
+    float: right;
+}
