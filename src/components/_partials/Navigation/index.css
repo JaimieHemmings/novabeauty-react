@@ -64,7 +64,8 @@
   
   /*Mobile Menu Styles */
   @media screen and (max-width: 568px) {
-    nav .navigation .container .col {
+
+    nav .navigation.container .col {
       padding: 0 15px;
     }
   
