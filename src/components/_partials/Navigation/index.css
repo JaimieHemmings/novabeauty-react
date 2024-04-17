@@ -1,3 +1,45 @@
+  .contact-bar .container {
+    padding: 0;
+  }
+
+  .contact-bar .container .row {
+    align-content: center;
+    justify-content: end;
+  }
+
+  .contact-bar .container .row .col {
+    text-align: right;
+  }
+
+  .contact-bar .container .row p {
+    padding: 0;
+  }
+
+  .contact-bar ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    padding: 5px 0;
+  }
+
+  .contact-bar ul li {
+    display: inline;
+    padding: 0 10px;
+  }
+
+  .contact-bar ul li a {
+    color: var(--primary-bg-color);
+    transition: 0.3s ease-out;
+  }
+
+  .contact-bar ul li a i {
+    font-size: 20px;
+  }
+
+  .contact-bar ul li a:hover {
+    color: var(--primary-color)
+  }
+  
   nav {
     position: sticky;
     z-index: 99;
@@ -83,6 +125,7 @@
       pointer-events: none;
       opacity: 0; 
       transition: opacity 0.5s ease-in;
+      z-index: -1;
     }
     
     .menuToggle {

@@ -1,0 +1,44 @@
+.about-us {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px 0;
+    position: relative;
+    margin: 25px 0;
+}
+
+.about-us:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.75);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.about-us .container .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    z-index: 2;
+}
+
+.about-us .container .row .col {
+    flex-basis: 50%;
+}
+
+@media screen and (max-width: 568px) {
+    .about-us .container .row {
+        flex-wrap: wrap;
+    }
+    .about-us .container .row .col {
+        flex-basis: 100%;
+    }
+
+    .about-us {
+        margin: 0;
+    }
+}
