@@ -10,8 +10,8 @@ const About = () => {
             <Swiper />
             <Hero
                 title={"About Us"}
-                p1={"If you need some more information or would like to book an appointment with me, please use the form below!"}
-                p2={"I can't wait to hear from you!"}
+                p1={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, dolores."}
+                p2={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, dolores."}
             />
             <section className="about-us" style={{ backgroundImage: `url(${FaceImage})`}}>
                 <div className="container">
