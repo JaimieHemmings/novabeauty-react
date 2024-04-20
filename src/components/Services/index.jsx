@@ -27,9 +27,10 @@ const Services = () => {
                         <h3>Nails</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero hic aliquam fugit quaerat ex labore a eaque nobis maiores, id exercitationem quae. Dolore deserunt voluptas nemo autem error quibusdam ab.</p>
                         <ul>
-                            <li>Luxury Manicure<span>£30</span></li>
                             <li>Gel Polish<span>£27</span></li>
-                            <li>Acrylic Set<span>£40</span></li>
+                            <li>Luxury Manicure<span>£30</span></li>
+                            <li>Pedicure<span>£40</span></li>
+                            <li>Luxury Pedicure<span>£40</span></li>
                         </ul>
                     </div>
                     <div className="col" style={{
@@ -39,8 +40,11 @@ const Services = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero hic aliquam fugit quaerat ex labore a eaque nobis maiores, id exercitationem quae. Dolore deserunt voluptas nemo autem error quibusdam ab.</p>
                         <ul>
                             <li>Oncology Massage<span>£55</span></li>
-                            <li>Swedish Massage<span>£47</span></li>
-                            <li>Head Massage<span>£25</span></li>
+                            <li>Back, Neck and Shoulder Massage<span>£40</span></li>
+                            <li>Swedish Full Body Massage<span>£47</span></li>
+                            <li>Indian Head Massage<span>£25</span></li>
+                            <li>Hot Stone Massage<span>£25</span></li>
+                            <li>Aromatherapy Massage<span>£25</span></li>
                         </ul>
                     </div>
                     <div className="col" style={{
@@ -60,9 +64,9 @@ const Services = () => {
                         <h3>Waxing</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero hic aliquam fugit quaerat ex labore a eaque nobis maiores, id exercitationem quae. Dolore deserunt voluptas nemo autem error quibusdam ab.</p>
                         <ul>
-                            <li>Luxury Manicure<span>£30</span></li>
-                            <li>Luxury Manicure<span>£30</span></li>
-                            <li>Luxury Manicure<span>£30</span></li>
+                            <li>Eyebrow<span>£30</span></li>
+                            <li>Upper Lip<span>£30</span></li>
+                            <li>Chin<span>£30</span></li>
                         </ul>
                     </div>
                     <div className="col" style={{
@@ -82,9 +86,10 @@ const Services = () => {
                         <h3>Lashes</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero hic aliquam fugit quaerat ex labore a eaque nobis maiores, id exercitationem quae. Dolore deserunt voluptas nemo autem error quibusdam ab.</p>
                         <ul>
-                            <li>Luxury Manicure<span>£30</span></li>
-                            <li>Luxury Manicure<span>£30</span></li>
-                            <li>Luxury Manicure<span>£30</span></li>
+                            <li>Lashlift<span>£30</span></li>
+                            <li>Lashlift & Tint<span>£30</span></li>
+                            <li>Classic Lash Extensions<span>£30</span></li>
+                            <li>Lash Extension Infills<span>£30</span></li>
                         </ul>
                     </div>
                     <div className="col" style={{
@@ -104,9 +109,9 @@ const Services = () => {
                         <h3>Brows</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero hic aliquam fugit quaerat ex labore a eaque nobis maiores, id exercitationem quae. Dolore deserunt voluptas nemo autem error quibusdam ab.</p>
                         <ul>
-                            <li>Luxury Manicure<span>£30</span></li>
-                            <li>Luxury Manicure<span>£30</span></li>
-                            <li>Luxury Manicure<span>£30</span></li>
+                            <li>Tint & Wax<span>£30</span></li>
+                            <li>Brow Tint<span>£30</span></li>
+                            <li>Brow Lamination<span>£30</span></li>
                         </ul>
                     </div>
                 </div>
