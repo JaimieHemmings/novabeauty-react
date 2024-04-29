@@ -1,4 +1,3 @@
-import Hero from '../_partials/Hero'
 import Testimonials from '../_partials/Testimonials'
 import FaceImage from '../../assets/images/face-line.png'
 import Swiper from "../_partials/Swiper"
@@ -8,11 +7,6 @@ const About = () => {
     return (
         <>
             <Swiper />
-            <Hero
-                title={"About Us"}
-                p1={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, dolores."}
-                p2={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, dolores."}
-            />
             <section className="about-us" style={{ backgroundImage: `url(${FaceImage})`}}>
                 <div className="container">
                     <div className="row">
@@ -23,8 +17,11 @@ const About = () => {
                             HARMONY</h2>
                         </div>
                         <div className="col">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, dolores. Quisquam quasi id alias odit, dicta dolore accusamus similique ducimus, veritatis vero optio earum quam repellat eum adipisci amet provident!</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, dolores. Quisquam quasi id alias odit, dicta dolore accusamus similique ducimus, veritatis vero optio earum quam repellat eum adipisci amet provident!</p>
+                            <p>I'm Rhiannah! your dedicated guide to holistic rejuvenation and beauty enhancement. With a passion for nurturing wellness and enhancing natural beauty. I bring a unique blend of expertise and care to every session. As a certified massage therapist, I crafts personalized experiences that melt away tension and restore balance, leaving you feeling revitalized from head to toe.</p>
+
+                            <p>But my talents extend beyond the massage table. With precision and skill, I offer a variety of exquisite nail services that elevate your manicure to a work of art. Whether you crave vibrant colors or timeless elegance, my attention to detail ensures stunning results that last. And for those seeking captivating lashes that command attention I deliver lush, flutter-worthy lashes that enhance your allure effortlessly.</p>
+
+                            <p>Join me as your trusted partner on your journey to holistic beauty, you'll discover a sanctuary where relaxation, rejuvenation, and transformation converge. From blissful massages to flawless nail art and captivating lashes, mys dedication to your well-being ensures an experience that transcends the ordinary and leaves you feeling radiant inside and out.</p>
                         </div>
                     </div>
                 </div>

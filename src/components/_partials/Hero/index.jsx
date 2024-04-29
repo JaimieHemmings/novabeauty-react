@@ -1,6 +1,6 @@
 import "./index.css"
 
-const Hero = ({title, p1, p2}) => {
+const Hero = ({title, p1, p2, p3}) => {
     return (
         <>
             <section className="hero">
@@ -8,6 +8,7 @@ const Hero = ({title, p1, p2}) => {
                     <h2>{title}</h2>
                     <p>{p1}</p>
                     <p>{p2}</p>
+                    <p>{p3}</p>
                 </div>
             </section>
         </>

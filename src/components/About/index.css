@@ -5,6 +5,13 @@
     padding: 25px 0;
     position: relative;
     margin: 25px 0;
+    margin-top: 0;
+}
+
+@media screen and (min-width:769px) {
+    .about-us {
+        margin-top: -25px;
+    }
 }
 
 .about-us:after {
