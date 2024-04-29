@@ -5,14 +5,8 @@ import Layout from './components/Layout'
 import Contact from './components/Contact'
 import Services from './components/Services'
 import './App.css'
-import ReactGA from 'react-ga';
-  const TRACKING_ID = "G-5G61LY36TN";
-  ReactGA.initialize(TRACKING_ID);
 
 function App() {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
   return (
     <>
       <Routes>
